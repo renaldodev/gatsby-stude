@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Caroucel from "../components/Carroucel"
+import TecSection from "../components/TecSection"
 import SEO from "../components/seo"
 
 const items = [
@@ -35,6 +36,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Caroucel items={items}/>
+    <TecSection/>
   </Layout>
 )
 
